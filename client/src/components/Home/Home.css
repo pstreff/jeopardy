@@ -1,0 +1,61 @@
+.outerBox {
+    /* max-width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 15px;
+    margin: auto;
+    height: 80vh; */
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.joinGameBox {
+    max-width: 40%;
+    width: 40%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+.loginBox {
+    max-width: 40%;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+.joinBtn {
+    font-family: inherit;
+    display:inline-block;
+    padding: 1.5em 6em;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    color: #212529;
+    background-color: rgba(108, 117, 125, 1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.joinBtn:hover {
+    border: 0.1em solid #343A40;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.joinBtn:active {
+    border: 0.1em solid #343A40;
+    transform: scale(0.9);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}

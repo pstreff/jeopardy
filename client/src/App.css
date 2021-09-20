@@ -1,0 +1,15 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    /* font-family: 'Roboto'; */
+    font-family: 'Source Code Pro', monospace;
+}
+
+.App {
+    text-align: center;
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    background-color: #DEE2E6;
+}
