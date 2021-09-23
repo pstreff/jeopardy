@@ -19,7 +19,7 @@ function Join(props) {
     useEffect(() => {
         let code = new URLSearchParams(props.location.search);
 
-        setCode(code.get('name') ?? '');
+        setCode(code.get('code') ?? '');
     }, [props.location.search])
 
     console.log(props.location);

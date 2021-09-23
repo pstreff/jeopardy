@@ -5,6 +5,7 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import NotFound from './components/Errors/NotFound'
 import Join from './components/Join/Join';
+import Gameboard from './components/Gameboard/Gameboard';
 
 function App() {
     // useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
                 <Switch>
                     <Route path="/" component={Home} exact /> 
                     <Route path="/join" component={Join} exact />
+                    <Route path="/game" component={Gameboard} exact />
                     <Route component={NotFound} />
                 </Switch>
             </HashRouter>
